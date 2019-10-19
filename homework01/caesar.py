@@ -1,4 +1,4 @@
-def encrypt_caesar(plaintext: str) -> str:
+def encrypt_caesar(plaintext):
     """
     >>> encrypt_caesar("PYTHON")
     'SBWKRQ'
@@ -9,11 +9,20 @@ def encrypt_caesar(plaintext: str) -> str:
     >>> encrypt_caesar("")
     ''
     """
-    # PUT YOUR CODE HERE
+    ciphertext = ""
+
+    for i in range(len(plaintext)):
+        if (('X' <= plaintext[i] <= 'Z') or ('x' <= plaintext[i] <= 'z')):
+            ciphertext += chr(ord(plaintext[i]) - 23)
+        elif '!' <= plaintext[i] <= '@':
+            ciphertext += plaintext[i]
+        else:
+            ciphertext += chr(ord(plaintext[i]) + 3)
+
     return ciphertext
 
 
-def decrypt_caesar(ciphertext: str) -> str:
+def decrypt_caesar(ciphertext):
     """
     >>> decrypt_caesar("SBWKRQ")
     'PYTHON'
@@ -24,5 +33,14 @@ def decrypt_caesar(ciphertext: str) -> str:
     >>> decrypt_caesar("")
     ''
     """
-    # PUT YOUR CODE HERE
+    plaintext = ""
+
+    for i in range(len(ciphertext)):
+        if ('A' <= ciphertext[i] <= 'C') or ('a' <= ciphertext[i] <= 'c'):
+            plaintext += chr(ord(ciphertext[i]) + 23)
+        elif '!' <= ciphertext[i] <= '@':
+            plaintext += ciphertext[i]
+        else:
+            plaintext += chr(ord(ciphertext[i]) - 3)
+
     return plaintext
