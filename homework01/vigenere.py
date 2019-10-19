@@ -22,4 +22,3 @@ def decrypt_vigenere(ciphertext: str, keyword: str) -> str:
     """
     # PUT YOUR CODE HERE
     return plaintext
-    
