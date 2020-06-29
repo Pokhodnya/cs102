@@ -18,7 +18,7 @@ class NaiveBayesClassifier:
         # X: Данные, которые обрабатываем
         # у: Классы, которым принадлежат данные
         X = [clean(x).lower() for x in X]
-        self.labels = [label for label in set(y)]  # создаётс список из всех классов (в нашем случае их 3)
+        self.labels = [label for label in set(y)]  # создаётся список из всех классов (в нашем случае их 3)
         self.l_chance = [y.count(label) / len(y) for label in self.labels] #счётчик вероятности класса  (1/3)
         for id, word_list in enumerate(X):
             word_list = word_list.split() #в потоке названий статей выделяем каждое слово
