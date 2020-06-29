@@ -56,7 +56,7 @@ def recommendations():
     new_news_title = [news.title for news in notlabeled]
     new_news_label = bayes.predict(new_news_title)
     good_news, maybe_news, never_news = [], [], []
-    #Добавляем метки нерзамечанным новостям
+    #Добавляем метки неразмечанным новостям
     for id, label in enumerate(new_news_label):
         if label == 'good':
             good_news.append(notlabeled[id])
