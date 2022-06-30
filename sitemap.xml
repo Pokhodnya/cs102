@@ -2,32 +2,127 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
          <loc>http://localhost:8000/</loc>
-         <lastmod>2022-06-10</lastmod>
+         <lastmod>2022-06-30</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>http://localhost:8000/automatic_filters/</loc>
+         <lastmod>2022-06-30</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>http://localhost:8000/chapter_1/</loc>
+         <lastmod>2022-06-30</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>http://localhost:8000/chapter_2/</loc>
+         <lastmod>2022-06-30</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>http://localhost:8000/chapter_3/</loc>
+         <lastmod>2022-06-30</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>http://localhost:8000/chapter_4/</loc>
+         <lastmod>2022-06-30</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>http://localhost:8000/conclusion/</loc>
+         <lastmod>2022-06-30</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>http://localhost:8000/custom_pagination/</loc>
+         <lastmod>2022-06-30</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>http://localhost:8000/db/</loc>
-         <lastmod>2022-06-10</lastmod>
+         <lastmod>2022-06-30</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>http://localhost:8000/docker/</loc>
-         <lastmod>2022-06-10</lastmod>
+         <lastmod>2022-06-30</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>http://localhost:8000/files_and_validators/</loc>
+         <lastmod>2022-06-30</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>http://localhost:8000/frontend/</loc>
+         <lastmod>2022-06-30</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>http://localhost:8000/introduction/</loc>
+         <lastmod>2022-06-30</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>http://localhost:8000/manual_filters/</loc>
+         <lastmod>2022-06-30</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>http://localhost:8000/memes/</loc>
-         <lastmod>2022-06-10</lastmod>
+         <lastmod>2022-06-30</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>http://localhost:8000/migrations/</loc>
-         <lastmod>2022-06-10</lastmod>
+         <lastmod>2022-06-30</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>http://localhost:8000/more_memes/</loc>
+         <lastmod>2022-06-30</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>http://localhost:8000/pagination/</loc>
+         <lastmod>2022-06-30</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>http://localhost:8000/signals/</loc>
+         <lastmod>2022-06-30</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>http://localhost:8000/test_get/</loc>
+         <lastmod>2022-06-30</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>http://localhost:8000/test_models/</loc>
+         <lastmod>2022-06-30</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>http://localhost:8000/test_patch/</loc>
+         <lastmod>2022-06-30</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>http://localhost:8000/test_post/</loc>
+         <lastmod>2022-06-30</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>http://localhost:8000/title/</loc>
+         <lastmod>2022-06-30</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>http://localhost:8000/update/</loc>
-         <lastmod>2022-06-10</lastmod>
+         <lastmod>2022-06-30</lastmod>
          <changefreq>daily</changefreq>
     </url>
 </urlset>
